@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Football World - Home</title>
+    <link rel="stylesheet" href="ex3.css">
+    <img class="header-image" src="https://analyisport.com/wp-content/uploads/2022/10/World-Cup-2022.jpeg" alt="World Cup 2022">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Navigation menu with links -->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- Main  section -->
+    <main id="home">
+        <section>
+            <h2>Welcome to Football World</h2>
+            <p>The ultimate destination for <b>football news</b>, <i>player updates</i>, and <u>match results.</u></p>
+            <article>
+                <h3>Latest Football News</h3>
+                <!-- Use time element for datetime representation -->
+                <p><time datetime="2025-09-14"> 14 September 2025</time> - <b>Real Madrid wins over Real Sociedad in a clash</b></p>
+                
+                <h4>Top Stories Today:</h4>
+                <!-- Ordered list  -->
+                <ol>
+                    <li>Champions League starts this week </li>
+                    <li>Panathinaiko's firt League Win </li>
+                    <li>Naapoli Smashes Fiorentina </li>
+                </ol>
+            </article>
+            <article>
+                <h3>Featured Teams</h3>
+                <!-- Table  -->
+                <table border="1">
+                    <caption>Top 5 Teams Current Rankings</caption>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Team</th>
+                            <th>Country</th>
+                            <th>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Manchester United</td>
+                            <td>England</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>FC Barcelona</td>
+                            <td>Spain</td>
+                            <td>92</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Bayern Munich</td>
+                            <td>Germany</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Paris Saint-Germain</td>
+                            <td>France</td>
+                            <td>88</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Juventus</td>
+                            <td>Italy</td>
+                            <td>85</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+
+        </section>
+    </main>
+
+    <hr>
+
+    <!-- About Us  -->
+    <section id="about">
+        <h2>About Football World</h2>
+        
+        <article>
+            <h3>Our Story</h3>
+            <p>Football World was founded by a group of friends passionate with football </p>
+            
+            <p>Football inspire us.</p>
+
+            <p>Our headquarters are:</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5686543383313!2d23.7516078754066!3d37.987194599896206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd52d92c4f4b%3A0x2aaadbf6277687b1!2zzpPOrs-AzrXOtM6_IM6Rz4DPjM-Dz4TOv867zr_PgiDOnc65zrrOv867zrHOkM60zrfPgg!5e0!3m2!1sel!2sgr!4v1758380745588!5m2!1sel!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+        </article>
+
+    </section>
+
+    <hr>
+
+    <!-- Contact Us -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        
+        <article>
+            <h3>Get in Touch</h3>
+            <p>It would be a pleasure for us to expand our team with more and more football pasionate associates</p>
+
+            <!-- Contact us informations with clickable links -->
+            <p><strong>Phone:</strong> <a href="tel:+30 6946358392">+30 6946358392</a><br>
+            <strong>Email:</strong> <a href="mailto:ck271103@gmail.com">ck271103@gmial.com</a></p>
+
+            <h4>Send Us a Message</h4>
+            <!-- Contact form with diferent input fields -->
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    
+                    <!-- Text input  (name) -->
+                    <label for="name">Your Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+                    
+                    <!-- Email input -->
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <!-- Radio buttons  -->
+                    <p>Preferred contact method:</p>
+                    <input type="radio" id="contact-email" name="contact-method" value="email" checked>
+                    <label for="contact-email">Email</label><br>
+                    
+                    <input type="radio" id="contact-phone" name="contact-method" value="phone">
+                    <label for="contact-phone">Phone</label><br><br>
+                    
+                    <!-- Submit button -->
+                    <button type="submit">Send Message</button>
+                </fieldset>
+            </form>
+
+        </article>
+    </section>
+
+    
+</body>
+</html>
